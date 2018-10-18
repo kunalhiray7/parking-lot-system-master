@@ -1,0 +1,17 @@
+group 'com.pls'
+version '1.0-SNAPSHOT'
+
+apply plugin: 'groovy'
+apply plugin: 'java'
+apply plugin: 'idea'
+
+sourceCompatibility = 1.8
+targetCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testCompile group: 'org.spockframework', name: 'spock-core', version: '0.6-groovy-1.8'
+}

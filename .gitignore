@@ -1,0 +1,7 @@
+.idea/
+out/
+build/
+.gradle
+*.iml
+.pid.lock
+.DS_Store
